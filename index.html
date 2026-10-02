@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Функциональные паттерны в JS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section class="block">
+    <h2>1. Чистые функции</h2>
+    <button id="pure-btn">Запустить</button>
+    <pre id="pure-out" class="out"></pre>
+  </section>
+
+  <section class="block">
+    <h2>2. Функции высшего порядка</h2>
+    <button id="menu-btn">Меню</button>
+    <ul id="menu" class="menu">
+      <li>Главная</li>
+      <li>Статьи</li>
+      <li>Контакты</li>
+    </ul>
+    <button id="hof-btn">Запустить</button>
+    <pre id="hof-out" class="out"></pre>
+  </section>
+
+  <section class="block">
+    <h2>3. Кэширование функций</h2>
+    <button id="memo-btn">Посчитать fastCalc(42)</button>
+    <pre id="memo-out" class="out"></pre>
+  </section>
+
+  <section class="block">
+    <h2>4. Ленивые функции</h2>
+    <button id="lazy-btn">Вызвать supportsWebp()</button>
+    <pre id="lazy-out" class="out"></pre>
+  </section>
+
+  <section class="block">
+    <h2>5. Каррирование</h2>
+    <button id="red-btn">Красный заголовок</button>
+    <button id="blue-btn">Синий заголовок</button>
+    <button id="reset-btn">Сбросить</button>
+    <pre id="curry-out" class="out"></pre>
+  </section>
+
+  <section class="block">
+    <h2>6. Композиция функций</h2>
+    <input id="slug-input" type="text" placeholder="Заголовок статьи">
+    <pre id="compose-out" class="out"></pre>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
